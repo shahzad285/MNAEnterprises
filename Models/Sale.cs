@@ -6,10 +6,10 @@ using System.Threading.Tasks;
 
 namespace Models
 {
-    public class Purchase:BaseModel
+    public class Sale:BaseModel
     {
-        public int TraderId { get; set; }
         public Trader Trader { get; set; }
+        public int TraderId { get; set; }
         public DateTime? AgreedPaymentDate { get; set; }
     }
 }

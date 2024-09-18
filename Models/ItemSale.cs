@@ -6,12 +6,12 @@ using System.Threading.Tasks;
 
 namespace Models
 {
-    public class ItemPurchase:BaseModel
+    public class ItemSale:BaseModel
     {
-        public int ItemId {  get; set; }
+        public int SaleId { get; set; }
+        public Sale Sale { get; set; }
+        public int ItemId { get; set; }
         public Item Item { get; set; }
-        public int PurchaseId { get; set;}
-        public Purchase Purchase { get; set; }
         public decimal Quantity { get; set; }
         public decimal Price { get; set; }
     }
