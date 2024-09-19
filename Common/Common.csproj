@@ -6,4 +6,13 @@
     <Nullable>enable</Nullable>
   </PropertyGroup>
 
+  <ItemGroup>
+    <Folder Include="IServices\" />
+    <Folder Include="IHelper\" />
+    <Folder Include="Helper\" />
+    <Folder Include="ModelValidations\" />
+    <Folder Include="DTOs\" />
+    <Folder Include="ViewModels\" />
+  </ItemGroup>
+
 </Project>
